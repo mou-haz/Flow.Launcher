@@ -255,7 +255,6 @@
                     <ui:ScrollViewerEx
                         x:Name="ListBoxScrollViewer"
                         Focusable="False"
-                        IsScrollAnimationEnabled="False"
                         RewriteWheelChange="True"
                         Template="{DynamicResource ScrollViewerControlTemplate}">
                         <ui:ScrollViewerEx.Style>

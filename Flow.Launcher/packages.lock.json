@@ -26,15 +26,6 @@
         "resolved": "6.9.3",
         "contentHash": "1CUGgFdyECDKgi5HaUBhdv6k+VG9Iy4OCforGfHyar3xQXAJypZkzymgKtWj/4SPd6nSG0Qi7NH71qHrDSZLaA=="
       },
-      "iNKORE.UI.WPF.Modern": {
-        "type": "Direct",
-        "requested": "[0.10.2.1, )",
-        "resolved": "0.10.2.1",
-        "contentHash": "nGwuuVul+TcLCTgPmaAZCc0fYFqUpCNZ8PiulVT3gZnsWt/AvxMZ0DSPpuyI/iRPc/NhFIg9lSIR7uaHWV0I/Q==",
-        "dependencies": {
-          "iNKORE.UI.WPF": "1.2.8"
-        }
-      },
       "MdXaml": {
         "type": "Direct",
         "requested": "[1.27.0, )",
@@ -1651,6 +1642,19 @@
         "type": "Project",
         "dependencies": {
           "JetBrains.Annotations": "[2025.2.2, )"
+        }
+      },
+      "inkore.ui.wpf.modern": {
+        "type": "Project",
+        "dependencies": {
+          "iNKORE.UI.WPF": "[1.2.8, )"
+        }
+      },
+      "inkore.ui.wpf.modern.controls": {
+        "type": "Project",
+        "dependencies": {
+          "iNKORE.UI.WPF": "[1.2.8, )",
+          "iNKORE.UI.WPF.Modern": "[1.0.0, )"
         }
       }
     }
